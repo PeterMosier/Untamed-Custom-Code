@@ -9,7 +9,7 @@ The JavaScript, CSS, and HTML are installed into UntamedFrames via the free vers
 
 ## ⚙️ Installation: How To Upload this Custom Plugin to Wordpress
 Once the **Simple Custom CSS and JS** plugin is installed, **Custom CSSS and JS** will be avaialable in the left column of the WP dashboard. Selecting this will allow to you to **Add Custom CSS**, **Add Custom JS**, **Add Custom HTML**. 
-Copy the versious JS, HTML, and CSS files from this repo into this tool. 
+Copy the various JS, HTML, and CSS files from this repo into this tool. You can use the filename for the title when saving into that tool.
 
 ---
 
