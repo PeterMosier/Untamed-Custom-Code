@@ -1,0 +1,52 @@
+/* -=-=-=-=-=-=-=--=-=-=--=-=-=-=-*/
+/* DIAGNOSTIC VISUALIZERS */
+/* @media (max-width: 600px) { */
+  /* Subtle checker background to notice overflow shifts */
+
+  body {
+    background:
+      linear-gradient(0deg, rgba(0,0,0,0.03) 1px, transparent 1px) repeat-y,
+      linear-gradient(90deg, rgba(0,0,0,0.03) 1px, transparent 1px) repeat-x;
+    background-size: 8px 8px;
+  }
+
+  /* Core canvas wrapper */
+  .wp-site-blocks {
+    outline: 2px solid #e74c3c; /* red */
+  }
+
+  /* Full-width groups and constrained groups */
+  .wp-block-group.alignfull {
+    outline: 2px dashed #3498db; /* blue */
+  }
+  .wp-block-group.is-layout-constrained {
+    outline: 2px dashed #8e44ad; /* purple */
+  }
+
+  /* Columns and individual column blocks */
+  .wp-block-columns {
+    outline: 2px dashed #27ae60; /* green */
+  }
+  .wp-block-column {
+    outline: 2px dotted #f39c12; /* orange */
+  }
+
+  /* Content area */
+  .wp-block-post-content,
+  .entry-content {
+    outline: 2px solid #2c3e50; /* dark slate */
+  }
+
+  /* Images and block images */
+  .wp-block-image,
+  img {
+    outline: 2px dotted #c0392b; /* brick red */
+  }
+
+  /* Helper: show any element that exceeds viewport width */
+  * {
+    box-sizing: border-box;
+  }
+/* } */
+
+
