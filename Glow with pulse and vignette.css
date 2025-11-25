@@ -1,0 +1,37 @@
+/* Featured image glow + vignette with pulse (single posts) */
+.wp-block-post-featured-image img {
+  cursor: zoom-in;
+  border-radius: 20px; /* match site aesthetic */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow:
+    0 0 20px rgba(18, 74, 18, 0.6),   /* soft green glow */
+    inset 0 0 60px rgba(0, 0, 0, 0.7); /* subtle vignette */
+  animation: pulseGlow 6s ease-in-out infinite;
+}
+
+/* Hover effect: intensify glow + vignette */
+.wp-block-post-featured-image img:hover {
+  transform: scale(1.02);
+  box-shadow:
+    0 0 30px rgba(18, 74, 18, 0.8),
+    inset 0 0 80px rgba(0, 0, 0, 0.3);
+}
+
+/* Pulse animation keyframes */
+@keyframes pulseGlow {
+  0% {
+    box-shadow:
+      0 0 20px rgba(18, 74, 18, 0.6),
+      inset 0 0 60px rgba(0, 0, 0, 0.2);
+  }
+  50% {
+    box-shadow:
+      0 0 30px rgba(18, 74, 18, 0.8),
+      inset 0 0 80px rgba(0, 0, 0, 0.3);
+  }
+  100% {
+    box-shadow:
+      0 0 20px rgba(18, 74, 18, 0.6),
+      inset 0 0 60px rgba(0, 0, 0, 0.2);
+  }
+}
