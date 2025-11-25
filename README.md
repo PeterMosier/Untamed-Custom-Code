@@ -1,4 +1,4 @@
-# Untamed Frames Custom-Code
+# Untamed Frames Custom Code
 Custom Javascript, HTML, and CSS used in UntamedFrames.ca
 
 ---
